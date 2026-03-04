@@ -356,8 +356,8 @@ public class PracticeProblemTest {
 
         PracticeProblem.q4();
 
-        // floor(-1.6 * 12) = floor(-19.2) = -19
-        assertEquals("Input a number: -19.0\n", bos.toString());
+        // floor(-1.6 * 12) = floor(-19.2) = -20
+        assertEquals("Input a number: -20.0\n", bos.toString());
         System.setOut(originalOut);
     }
 
