@@ -23,7 +23,7 @@ public class PracticeProblemTest {
         PracticeProblem.q1();
 
         // 7 + 3 = 10
-        assertEquals("10\n", bos.toString());
+        assertEquals("Input an integer: 10\n", bos.toString());
         System.setOut(originalOut);
     }
 
@@ -39,7 +39,7 @@ public class PracticeProblemTest {
         PracticeProblem.q1();
 
         // 100 + 3 = 103
-        assertEquals("103\n", bos.toString());
+        assertEquals("Input an integer: 103\n", bos.toString());
         System.setOut(originalOut);
     }
 
@@ -55,7 +55,7 @@ public class PracticeProblemTest {
         PracticeProblem.q1();
 
         // 0 + 3 = 3
-        assertEquals("3\n", bos.toString());
+        assertEquals("Input an integer: 3\n", bos.toString());
         System.setOut(originalOut);
     }
 
@@ -71,7 +71,7 @@ public class PracticeProblemTest {
         PracticeProblem.q1();
 
         // -1 + 3 = 2
-        assertEquals("2\n", bos.toString());
+        assertEquals("Input an integer: 2\n", bos.toString());
         System.setOut(originalOut);
     }
 
@@ -87,7 +87,7 @@ public class PracticeProblemTest {
         PracticeProblem.q1();
 
         // -10 + 3 = -7
-        assertEquals("-7\n", bos.toString());
+        assertEquals("Input an integer: -7\n", bos.toString());
         System.setOut(originalOut);
     }
 
@@ -108,7 +108,7 @@ public class PracticeProblemTest {
         PracticeProblem.q2();
 
         // "5" + "4" = "54" -> 54.0 + 2 = 56.0
-        assertEquals("56.0\n", bos.toString());
+        assertEquals("Input a number: 56.0\n", bos.toString());
         System.setOut(originalOut);
     }
 
@@ -124,7 +124,7 @@ public class PracticeProblemTest {
         PracticeProblem.q2();
 
         // "99" + "4" = "994" -> 994.0 + 2 = 996.0
-        assertEquals("996.0\n", bos.toString());
+        assertEquals("Input a number: 996.0\n", bos.toString());
         System.setOut(originalOut);
     }
 
@@ -140,7 +140,7 @@ public class PracticeProblemTest {
         PracticeProblem.q2();
 
         // "0" + "4" = "04" -> 4.0 + 2 = 6.0
-        assertEquals("6.0\n", bos.toString());
+        assertEquals("Input a number: 6.0\n", bos.toString());
         System.setOut(originalOut);
     }
 
@@ -156,7 +156,7 @@ public class PracticeProblemTest {
         PracticeProblem.q2();
 
         // "-32" + "4" = "-324" -> -324.0 + 2 = -322.0
-        assertEquals("-322.0\n", bos.toString());
+        assertEquals("Input a number: -322.0\n", bos.toString());
         System.setOut(originalOut);
     }
 
@@ -172,7 +172,7 @@ public class PracticeProblemTest {
         PracticeProblem.q2();
 
         // "-1" + "4" = "-14" -> -14.0 + 2 = -12.0
-        assertEquals("-12.0\n", bos.toString());
+        assertEquals("Input a number: -12.0\n", bos.toString());
         System.setOut(originalOut);
     }
 
@@ -192,7 +192,7 @@ public class PracticeProblemTest {
         PracticeProblem.q3();
 
         // 3.14 * 5 * 5 = 78.5
-        assertEquals("78.5\n", bos.toString());
+        assertEquals("Input a radius: 78.5\n", bos.toString());
         System.setOut(originalOut);
     }
 
@@ -208,7 +208,7 @@ public class PracticeProblemTest {
         PracticeProblem.q3();
 
         // 3.14 * 10 * 10 = 314.0
-        assertEquals("314.0\n", bos.toString());
+        assertEquals("Input a radius: 314.0\n", bos.toString());
         System.setOut(originalOut);
     }
 
@@ -224,7 +224,7 @@ public class PracticeProblemTest {
         PracticeProblem.q3();
 
         // 3.14 * 1 * 1 = 3.14
-        assertEquals("3.14\n", bos.toString());
+        assertEquals("Input a radius: 3.14\n", bos.toString());
         System.setOut(originalOut);
     }
 
@@ -240,7 +240,7 @@ public class PracticeProblemTest {
         PracticeProblem.q3();
 
         // 3.14 * 0 * 0 = 0.0
-        assertEquals("0.0\n", bos.toString());
+        assertEquals("Input a radius: 0.0\n", bos.toString());
         System.setOut(originalOut);
     }
 
@@ -256,7 +256,7 @@ public class PracticeProblemTest {
         PracticeProblem.q3();
 
         // 3.14 * (-3) * (-3) = 28.26
-        assertEquals("28.26\n", bos.toString());
+        assertEquals("Input a radius: 28.26\n", bos.toString());
         System.setOut(originalOut);
     }
 
@@ -277,7 +277,7 @@ public class PracticeProblemTest {
         PracticeProblem.q4();
 
         // floor(3.0 * 12) = floor(36.0) = 36
-        assertEquals("36.0\n", bos.toString());
+        assertEquals("Input a number: 36.0\n", bos.toString());
         System.setOut(originalOut);
     }
 
@@ -293,7 +293,7 @@ public class PracticeProblemTest {
         PracticeProblem.q4();
 
         // floor(2.5 * 12) = floor(30.0) = 30
-        assertEquals("30.0\n", bos.toString());
+        assertEquals("Input a number: 30.0\n", bos.toString());
         System.setOut(originalOut);
     }
 
@@ -309,7 +309,7 @@ public class PracticeProblemTest {
         PracticeProblem.q4();
 
         // floor(1.9 * 12) = floor(22.8) = 22
-        assertEquals("22.0\n", bos.toString());
+        assertEquals("Input a number: 22.0\n", bos.toString());
         System.setOut(originalOut);
     }
 
@@ -325,7 +325,7 @@ public class PracticeProblemTest {
         PracticeProblem.q4();
 
         // floor(0.0 * 12) = floor(0.0) = 0
-        assertEquals("0.0\n", bos.toString());
+        assertEquals("Input a number: 0.0\n", bos.toString());
         System.setOut(originalOut);
     }
 
@@ -341,7 +341,7 @@ public class PracticeProblemTest {
         PracticeProblem.q4();
 
         // floor(-2.0 * 12) = floor(-24.0) = -24
-        assertEquals("-24.0\n", bos.toString());
+        assertEquals("Input a number: -24.0\n", bos.toString());
         System.setOut(originalOut);
     }
 
@@ -357,7 +357,7 @@ public class PracticeProblemTest {
         PracticeProblem.q4();
 
         // floor(-1.6 * 12) = floor(-19.2) = -19
-        assertEquals("-19.0\n", bos.toString());
+        assertEquals("Input a number: -19.0\n", bos.toString());
         System.setOut(originalOut);
     }
 
