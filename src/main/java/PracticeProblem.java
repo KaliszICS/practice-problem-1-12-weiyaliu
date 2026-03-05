@@ -33,12 +33,14 @@ public class PracticeProblem {
 		//Write question 2 code here
 		Scanner input = new Scanner(System.in);
 
-		System.out.println("Input a number: ");
+		System.out.print("Input a number: ");
 		String num1 = input.nextLine();
 		
-		double num2 = num1
+		String num2 = num1+"4";	
+		double num3 = Double.parseDouble(num2);
+		num3 = num3 + 2;
 
-		System.out.println((num2+"4")+2);
+		System.out.println(num3);
 
 		input.close();
 
